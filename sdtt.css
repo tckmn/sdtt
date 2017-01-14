@@ -1,0 +1,48 @@
+/* sdtt: slightly decent typing test
+ * Copyright (C) 2017  KeyboardFire <andy@keyboardfire.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+html, body, main {
+    color: #d8d8d8;
+    background-color: #181818;
+    font: 12pt sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+#promptText, #input {
+    color: #d8d8d8;
+    background-color: #282828;
+    border: 1px solid #585858;
+    border-radius: 3px;
+    width: 100%;
+    font: 12pt sans-serif;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#input {
+    resize: vertical;
+    overflow-x: hidden;
+}
+
+#results {
+    display: none;
+}
